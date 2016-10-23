@@ -117,3 +117,22 @@ input:active {
     justify-content: initial; }
   .spacer {
     display: none; } }
+
+@media handheld {
+  .links-list {
+    font-size: 26px;
+    width: 100%;
+    float: none;
+    margin: 20px 0; }
+    .links-list li a {
+      font-size: 24px;
+      padding: 6px 0; }
+  .body-list {
+    font-size: 65px; }
+    .body-list div {
+      width: 50%; }
+  .row {
+    display: initial;
+    justify-content: initial; }
+  .spacer {
+    display: none; } }
