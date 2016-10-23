@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Start Page</title>
+	    <meta charset="utf-8" />
+        <script src="https://use.fontawesome.com/6af5da50a4.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/min/main.min.css" />
+    </head>
+
+    <body>
+        <div class="header-clock" id="bind-header-clock"></div>
+
+        <div id="page-wrap">
+            <div class="search">
+                <div class="search-logo">
+                    <img src="images/duckduckgo.png" />
+                </div>
+                <form method="get" action="http://www.duckduckgo.com/" class="search-bar">
+                    <input type="text" name="q" maxlength="255" value="Search" autocomplete="off"
+                        onfocus="if(this.value==this.defaultValue)this.value='';" 
+                        onblur="if(this.value=='')this.value=this.defaultValue; " />
+                    <input class="search-submit" type="submit" value="&#xf002;"/>
+                </form>
+            </div>
+            
+            <div class="row">
+                <ul class="links-list">
+                    <li>Entertainment</li>
+                    <li><a href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+                    <li><a href="https://www.reddit.com"><i class="fa fa-reddit-alien" aria-hidden="true"></i> Reddit</a></li>
+                    <li><a href="https://twitch.tv/"><i class="fa fa-twitch" aria-hidden="true"></i> Twitch TV</a></li>
+                    <li><a href="http://www.netflix.com"><i class="fa fa-film" aria-hidden="true"></i> Netflix</a></li>
+                    <li><a href="https://music.google.com"><i class="fa fa-headphones" aria-hidden="true"></i> Google Music</a></li>
+                    <li><a href="https://www.amazon.ca"><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a></li>
+                </ul>
+
+                <ul class="links-list">
+                    <li>Social</li>
+                    <li><a href="https://www.outlook.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Outlook</a></li>
+                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+                    <li><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+                    <li class="spacer">&nbsp;</li>
+                    <li class="spacer">&nbsp;</li>
+                </ul>
+
+                <ul class="links-list">
+                    <li>Subreddits</li>
+                    <li><a href="https://www.reddit.com/r/programming/">/r/programming</a></li>
+                    <li><a href="https://www.reddit.com/r/webdev/">/r/webdev</a></li>
+                    <li><a href="https://www.reddit.com/r/web_design/">/r/web_design</a></li>
+                    <li><a href="https://www.reddit.com/r/pcmasterrace/">/r/pcmasterrace</a></li>
+                    <li><a href="https://www.reddit.com/r/comicbookcollecting/">/r/comicbookcollecting</a></li>
+                    <li class="spacer">&nbsp;</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <ul class="links-list">
+                    <li>Programming</li>
+                    <li><a href="http://www.asp.net/"><i class="fa fa-windows" aria-hidden="true"></i> ASP.NET</a></li>
+                    <li><a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
+                    <li><a href="https://bitbucket.org/"><i class="fa fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+                    <li><a href="https://jsfiddle.net/"><i class="fa fa-jsfiddle" aria-hidden="true"></i> JS Fiddle</a></li>
+                    <li><a href="http://stackoverflow.com/"><i class="fa fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li>
+                    <li><a href="https://developer.android.com/index.html"><i class="fa fa-android" aria-hidden="true"></i> Android Dev.</a></li>
+                    <li><a href="https://www.udemy.com/"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Udemy</a></li>
+                    <li><a href="https://www.coursera.org/"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Coursera</a></li>
+                    <li class="spacer">&nbsp;</li>
+                </ul>
+
+                <ul class="links-list">
+                    <li>Comics</li>
+                    <li><a href="http://marvel.com/">Marvel</a></li>
+                    <li><a href="http://www.dccomics.com/">DC</a></li>
+                    <li><a href="https://imagecomics.com/">Image</a></li>
+                    <li><a href="http://valiantuniverse.com/">Valiant</a></li>
+                    <li><a href="http://www.chapterhouse.ca/">Chapterhouse</a></li>
+                    <li><a href="http://comicbookdb.com/index.php?">Comic Book DB</a></li>
+                    <li><a href="http://comicbookroundup.com/">ComicBook Round Up</a></li>
+                    <li><a href="http://comicvine.gamespot.com/">Comic Vine</a></li>
+                    <li><a href="https://www.comixology.com/">Comixology</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <script src="scripts/min/dateFormatter.min.js"></script>
+        <script src="scripts/min/index.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,159 @@
+$background: #333333;
+$backgroundDark: #292929;
+$textLighter: #c2c2c2;
+$textLight: #aaaaaa;
+$textDark: #747474;
+$border: #242424;
+$borderLight: #808080;
+$buttonBackgroundHover: #1F1F1F;
+$buttonHover: #ffffff;
+
+body {
+  background-color: $background;
+  font: normal 15px 'Segoe UI';
+  color: $textDark;
+}
+
+#page-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-clock {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: $textLight;
+  margin-bottom: 10px;
+}
+
+.search {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.search-logo {
+  margin: auto;
+  margin-bottom: 0.8em;
+  width: 250px;
+}
+
+.search-bar {
+  position: relative;
+  display: inline;
+}
+
+input {
+  &[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.54545em;
+    background-color: $backgroundDark;
+    color: $textLighter;
+    border: 1px solid $border;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+  }
+  &:active {
+    border-color: $borderLight; 
+  }
+}
+
+.search-submit {
+  font-family: FontAwesome;
+  font-size: 20px;
+  background-color: transparent;
+  color: $textDark;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /*Size*/
+  border-radius: 2px;
+  min-width: 26px;
+  padding: 0 0.64em;
+  height: auto;
+  min-height: 41px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  line-height: 1.5;
+  /*Position*/
+  position: absolute;
+  top: -12px;
+  left: auto;
+  bottom: 0;
+  right: 2px;
+
+  &:hover {
+    color: $buttonHover;
+    background-color: $buttonBackgroundHover;
+  }
+}
+
+.links-list {
+  font: bold 20px 'Segoe UI';
+  width: 31%;
+  list-style: none;
+  padding: 0;
+  margin: 10px 1% 5px 1%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid $border;
+  li {
+    a {
+      display: block;
+      padding: 3px 0;
+      text-decoration: none;
+      color: $textDark;
+      font-weight: normal;
+      font-size: 18px;
+    }
+    &:nth-child(2n) {
+      background-color: $backgroundDark;
+    }
+    &:first-child {
+      background-color: $textDark;
+      color: $backgroundDark;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  padding-top: 3px;
+}
+
+@media (max-width: 800px) {
+  .links-list {
+    font-size: 26px;
+    width: 100%;
+    float: none;
+    margin: 20px 0;
+    li a {
+      font-size: 24px;
+      padding: 6px 0;
+    }
+  }
+
+  .body-list {
+    font-size: 65px;
+    div {
+      width: 50%;
+    }
+  }
+
+  .row {
+    display: initial;
+    justify-content: initial;
+  }
+
+  .spacer {
+    display: none;
+  }
+}
