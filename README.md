@@ -2,6 +2,6 @@
 Just a simple, responsive startpage I made.
 
 ### Examples
-![alt tag](examples/example1.png)
+![Example 1](examples/example1.png)
 
-![alt tag](examples/example2.png)
+![Example 2](examples/example2.png)
