@@ -110,10 +110,6 @@ input:active {
     .links-list li a {
       font-size: 24px;
       padding: 6px 0; }
-  .body-list {
-    font-size: 65px; }
-    .body-list div {
-      width: 50%; }
   .row {
     display: initial;
     justify-content: initial; }
