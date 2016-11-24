@@ -1,4 +1,4 @@
-dateFormatter = function () {
+var dateFormatter = function () {
     var retModel = {};
 
     retModel.formatDate = function(date) {
