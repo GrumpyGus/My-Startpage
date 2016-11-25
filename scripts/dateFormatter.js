@@ -1,3 +1,10 @@
+//Fix for ECMA5 and less not supporting endsWith.
+if (typeof String.prototype.endsWith !== 'function') {
+    String.prototype.endsWith = function(suffix) {
+        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+    };
+}
+
 var dateFormatter = function () {
     var retModel = {};
 
