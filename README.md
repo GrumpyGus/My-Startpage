@@ -1,7 +1,5 @@
-## My-Startpage
-Just a simple, responsive startpage I made.
+My-Startpage
+------------
+A simple, responsive startpage.
 
-### Examples
-![Example 1](examples/example1.png)
-
-![Example 2](examples/example2.png)
+[https://grumpygus.github.io/My-Startpage/](https://grumpygus.github.io/My-Startpage/)
